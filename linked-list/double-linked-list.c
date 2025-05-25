@@ -1,7 +1,7 @@
-linked - list / test.c #include<stdio.h>
+#include <stdio.h>
 #include <stdlib.h>
 
-                typedef struct node
+typedef struct node
 {
     struct node *prev;
     int data;
